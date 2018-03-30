@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+{% load staticfiles %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,5 +10,6 @@
 <body>
 <h1>Holi este es el primer renderizadp de una pagina</h1>
 <h2>{{my_var}}</h2>
+<img src="{% static "img/2.jpeg" %}" alt="hooli no funciona">
 </body>
 </html>
